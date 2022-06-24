@@ -15,20 +15,24 @@ ul {
 }
 /* стилизация логотипа в футере и хедере */
 .logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 26px;
-  color: var(--color-text);
-  text-decoration: none;
-  letter-spacing: 0.03em;
+font-family: Raleway, sans-serif;
+font-weight: 700;
+line-height: 1.2;
+font-size: 26px;
+color: var(--color-text);
+text-decoration: none;
+letter-spacing: 0.03em;
 }
 .logo-web {
+  font-family: Raleway, sans-serif;
   color: var(--color-acsent);
+}
+.logo-web-bottom {
+font-family: Raleway, sans-serif;
+color:#FFFFFF;
 }
 /* Стилизация навигации */
 .site-nav {
-  font-family:Roboto;
   font-weight:500;
   line-height:1.14;
   font-size:14px;
@@ -51,7 +55,6 @@ ul {
 /*Стилизация контактов в футере и хедере  */
 
 .adress {
-  font-family:Roboto, sans-serif;
   color: var(--color-buttom);
   font-weight:500;
   line-height:1.14;
@@ -73,29 +76,31 @@ ul {
   }
 
 .adress-contact {
-  color: var(--color-buttom);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 /* Стилизация кнопок на главной странице и портфолио */
 .button {
-  font-family: Roboto, sans-serif;
   color: var(--color-text);
   background-color: #f5f4fa;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 2;
   font-size: 16px;
   cursor: pointer;
   letter-spacing: 0.06em;
 }
-.button:hover,
-.buttom:focus {
-  color: #ffffff;
-  background-color: var(--color-acsent);
+.butbuner {
+ font-weight: 700; 
 }
+.button:hover, 
+.buttom:focus { 
+color: #ffffff; 
+background-color: var(--color-acsent); 
+} 
 .button.primary {
   background-color: var(--color-acsent);
   color: #ffffff;
-}
+  }
 .button.secondery {
   background-color: #f5f4fa;
   color: var(--color-text);
@@ -103,8 +108,7 @@ ul {
 
 /* стилизация блока с заказом услуги */
 .baner {
-  font-family: Roboto, sans-serif;
-  font-weight:900;
+  font-weight: 900;
   line-height:1.40;
   font-size:44px;
   background: #2f303a;
@@ -137,18 +141,16 @@ ul {
   }
 /* стилизация раздела команда */
 .comanda {
-  font-family: Roboto, sans-serif;
   font-size:36px;
-  font-weight:700;
+  font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
 .comanda-fio {
-font-family: Roboto, sans-serif; 
 font-weight: 500; 
-  line-height:1.20;
-  font-size:16px;
-  letter-spacing: 0.03em;
+line-height: 1.20;
+font-size:16px;
+letter-spacing: 0.03em;
 }
 
 .profeshion {
